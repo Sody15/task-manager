@@ -15,8 +15,11 @@ $primary: $green;
 
 $link: $turquoise;
 
-html,
-body {
+html {
+  background: linear-gradient(to right top, $turquoise, $green);
   height: 100%;
+}
+
+body {
   font-family: $family-sans-serif;
 }
